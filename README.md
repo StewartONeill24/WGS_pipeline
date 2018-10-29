@@ -1,1 +1,1 @@
-# github-upload
+# WGS_pipeline
