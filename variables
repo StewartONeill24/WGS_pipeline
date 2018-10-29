@@ -1,0 +1,16 @@
+#sequence quality format "ILMFQ" or "STDFQ"
+Qformat="STDFQ"
+#exome capture kit "agilent50" or "agilent51" we need bed file for Illumina TrueSeq
+capturekit="agilent51"
+#number of lanes of sequence, 1, 2 or 3
+no_lanes=5
+#Sample ID
+sampleID="SOPR0402"
+#Reference sequence
+indexedRefSequence="/temp/hgig/EXOME_DATA/REF_GENOMES/HG38/hs38.fa"
+#fastq file locations
+lane1_pair1="/temp/hgig/EXOME_DATA/STEWART_TEMP/SOPR0402/F17FTSEUHT1295_HUMvxrR/result/SOPR0402/clean_data/CL100041184_L02_9_1.fq.gz"
+lane1_pair2="/temp/hgig/EXOME_DATA/STEWART_TEMP/SOPR0402/F17FTSEUHT1295_HUMvxrR/result/SOPR0402/clean_data/CL100041184_L02_9_2.fq.gz""
+#Inhouse database "Autoimmune" "BacterialInfection" "BloodCancer" "BreastCancer" "HLH" "HNPCC" "IBD_Chrons" "IBD_ChronsGaia" "Immunodeficiency" "Imprinting" "Kidney" "MCM" "MucocutaneousCandidiasis" "Ptosis" "CleftLip" "ConeDystrophy""Hydrops""
+#sotonDB="Hydrops"
+sotonDB="IBD_Chrons"
